@@ -133,6 +133,7 @@ nav .fa {
     background: #f44336;
     transition: 1s;
   }
+  
 }
 
 /* --------------------- MEST POPULÆRE BEDRIFTSPAKKER-----------------*/
@@ -208,6 +209,23 @@ h3 {
     flex-direction: column;
     display: inline-block;
   }
+  .course-col p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+    text-align: left;
+  }
+  .course-col h3 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px;
+    text-align: middle;
+  }
+  
 }
 /* ----    <!----------------------FULLFØRTE prosjekter-------------------------->--*/
 
@@ -306,9 +324,10 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff; /* Text color */
-  background-color: rgb(104, 148, 196);
+  background-color: rgb(22, 36, 93);
   padding: 2px;
   border-radius: 5px;
+  border-width:1px
   display: inline-block;
   margin: 20px;
   justify-content: flex-end;
