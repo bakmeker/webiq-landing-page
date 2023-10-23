@@ -225,7 +225,12 @@ h3 {
     padding: 10px;
     text-align: middle;
   }
-  
+  #img2 {
+    display: none;
+  }
+  #img3 {
+    display: none;
+  }
 }
 /* ----    <!----------------------FULLFØRTE prosjekter-------------------------->--*/
 
