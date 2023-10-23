@@ -25,17 +25,17 @@ function isMobile() {
 if (isMobile()) {
   button1.addEventListener(`click`, function () {
     console.log("mobile");
-    img1.src = "images/combo1.jpg";
+    mobileimg.src = "images/combo1.jpg";
   });
   
   button2.addEventListener(`click`, function () {
     console.log("mobile");
-    img1.src = "images/combo2.jpg";
+    mobileimg.src = "images/combo2.jpg";
   });
   
   button3.addEventListener(`click`, function () {
     console.log("mobile");
-    img1.src = "images/combo3.jpg";
+    mobileimg.src = "images/combo3.jpg";
   
   })
 } else {
