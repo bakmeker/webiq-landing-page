@@ -202,7 +202,9 @@ h3 {
 .course-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
-
+#mobileimg{
+    display: none;
+  }
 /* ADJUSSTING FOR MOBILE */
 @media (max-width: 800px) {
   .row {
@@ -231,7 +233,14 @@ h3 {
   #img3 {
     display: none;
   }
-}
+  #mobileimg{
+    display: block;
+  }
+  #img1{
+    display: none;
+  }
+
+}  
 /* ----    <!----------------------FULLFØRTE prosjekter-------------------------->--*/
 
 .campus {
