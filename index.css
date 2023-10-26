@@ -257,6 +257,12 @@ h3 {
     line-height: 22px;
     padding: 10px;
     text-align: middle;
+
+    
+  }
+  .course-col .fa {
+    color: #000000;
+    font-size: 22px;
   }
   #img2 {
     display: none;
