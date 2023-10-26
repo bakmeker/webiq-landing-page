@@ -115,7 +115,7 @@ nav .fa {
    
   }
   .text-box h1 {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom:50px;
     text-align: center;
     display: block; /* Change to block to ensure it's not inline */
@@ -124,7 +124,7 @@ nav .fa {
     text-overflow: ellipsis;
   }
   .text-box2 p {
-    font-size: 14px; /* Decrease the font size of the p element */
+    font-size: 15px; /* Decrease the font size of the p element */
     color: #fff;
     text-align: center;
     display: block; /* Change to block to ensure it's not inline */
