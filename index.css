@@ -114,6 +114,12 @@ nav .fa {
     display: none;
    
   }
+  .course-col .fa {
+    color: #000000;
+    position: relative;
+    text-align: left;
+  }
+  
   .text-box h1 {
     font-size: 23px;
     margin-bottom:50px;
@@ -260,9 +266,7 @@ h3 {
 
     
   }
-  .course-col .fa {
-    color: #000000;
-    font-size: 22px;
+
   }
   #img2 {
     display: none;
