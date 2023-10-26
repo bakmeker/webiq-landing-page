@@ -118,14 +118,20 @@ nav .fa {
     font-size: 25px;
     margin-bottom:50px;
     text-align: center;
-    position: relative;
+    display: block; /* Change to block to ensure it's not inline */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis;
   }
   .text-box2 p {
     font-size: 14px; /* Decrease the font size of the p element */
     color: #fff;
     text-align: center;
     display: block; /* Change to block to ensure it's not inline */
-   bottom: 40px;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis; /* Display an ellipsis (...) for long text */
+    margin-top: 5px;
   }
   
   .hero-btn {
