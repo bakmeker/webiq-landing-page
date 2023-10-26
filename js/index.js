@@ -4,13 +4,6 @@ const navLinks = document.getElementById(`navLinks`);
 const exit = document.getElementById(`exit`);
 const bar = document.getElementById(`bar`);
 
-exit.addEventListener(`click`, function () {
-  navLinks.style.right = `-200px`;
-});
-
-bar.addEventListener(`click`, function () {
-  navLinks.style.right = `0px`;
-});
 
 const button1 = document.getElementById(`changeImageButton1`);
 const button2 = document.getElementById(`changeImageButton2`);
