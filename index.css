@@ -160,7 +160,7 @@ nav .fa {
     font-size: 15px;
     color: #fff;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -221,13 +221,6 @@ nav .fa {
 
   }
   .text-box2 p {
-    font-size: 15px;
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: none;
   
   }
