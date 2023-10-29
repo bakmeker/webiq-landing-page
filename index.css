@@ -393,9 +393,7 @@ h3 {
 
 .facilities-col {
   flex-basis: 41%;
-  border-radius: 10px;
   margin-bottom: 5%;
-  text-align: left;
 }
 .facilities-col img {
   width: 110%;
@@ -409,6 +407,28 @@ h3 {
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left;
+}
+
+.referanser img {
+  max-width: 100%; /* Make sure the images don't exceed their container */
+  height: auto;    /* Maintain the aspect ratio */
+}
+
+/* Media query for PC screens (you can adjust the max-width as needed) */
+@media (min-width: 768px) {
+  .referanser img {
+    max-width: 400px; /* Adjust the maximum width for PC screens */
+    text-align: center;
+  }
+ 
+}
+
+/* Media query for mobile screens (you can adjust the max-width as needed) */
+@media (max-width: 767px) {
+  .referanser img {
+    max-width: 350px; /* Adjust the maximum width for mobile screens */
+    text-align: center;
+  }
 }
 
 /*-----------------TESTIMONIALS-----------------------*/
@@ -712,18 +732,18 @@ body {
 }
 
 .check-text i {
-  color: rgb(255, 0, 98);
+  color: rgb(105, 181, 244);
   padding-right: 0.7rem;
   font-size: 1.3rem;
 }
 
 .card a {
   text-align: center;
-  background: rgb(255, 0, 98);
+  background: rgb(105, 181, 244);
   border-radius: 1.3rem;
   padding: 0.6rem;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   width: fit-content;
   margin: auto;
   margin-top: 1rem;
@@ -733,7 +753,7 @@ body {
 }
 
 .card a:hover {
-  background: rgb(204, 2, 79);
+  background: rgb(37, 147, 237);
 }
 
 /* Responsive CSS for screens up to 768px width */
