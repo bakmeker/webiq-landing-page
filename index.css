@@ -309,33 +309,7 @@ h3 {
   display: block;
 }
 
-.layer {
-  background: transparent;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.5s;
-}
 
-.layer h3 {
-  width: 100%;
-  font-weight: 500;
-  color: #fff;
-  font-size: 26px;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.layer:hover h3 {
-  bottom: 49%;
-  opacity: 1;
-}
 #changeImageButton3 {
   display: inline-block; /* Display the button inline with the image */
   position: relative; /* Allow positioning relative to its container */
@@ -384,40 +358,21 @@ h3 {
 
 /* --------------------------- REFERANSER ----------------------------*/
 
-.facilities {
-  width: 80%;
-  margin: auto;
+.referanser {
   text-align: center;
-  padding-top: 70px;
-}
-
-.facilities-col {
-  flex-basis: 41%;
-  margin-bottom: 5%;
-}
-.facilities-col img {
-  width: 110%;
-  border-radius: 10%;
-}
-
-.facilities-col p {
-  padding: 0;
-}
-.facilities-col h3 {
-  margin-top: 16px;
-  margin-bottom: 15px;
-  text-align: left;
+margin-top: 50px;
 }
 
 .referanser img {
-  max-width: 100%; /* Make sure the images don't exceed their container */
-  height: auto;    /* Maintain the aspect ratio */
+ margin-top: 50px;
+
 }
+
 
 /* Media query for PC screens (you can adjust the max-width as needed) */
 @media (min-width: 768px) {
   .referanser img {
-    max-width: 400px; /* Adjust the maximum width for PC screens */
+    max-width: 350px; /* Adjust the maximum width for PC screens */
     text-align: center;
   }
  
@@ -426,9 +381,16 @@ h3 {
 /* Media query for mobile screens (you can adjust the max-width as needed) */
 @media (max-width: 767px) {
   .referanser img {
-    max-width: 350px; /* Adjust the maximum width for mobile screens */
+    max-width: 300px; /* Adjust the maximum width for mobile screens */
     text-align: center;
+    margin-top: 20px;
   }
+
+  .referanser {
+    text-align: center;
+  margin-top: 0px;
+  }
+  
 }
 
 /*-----------------TESTIMONIALS-----------------------*/
@@ -483,14 +445,15 @@ h3 {
 
 .container1 {
   width: 100%;
-  height: 80vh;
-  background: #ffffff;
+  height:95vh;
+  background:#f0eded;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 form {
-  background: #fff3f3;
+  background: #f0eded;
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
@@ -514,7 +477,7 @@ form textarea {
 }
 form button {
   padding: 15px;
-  background: red;
+  background:  rgb(105, 181, 244);
   color: white;
   font-size: 18px;
   border: 0;
@@ -523,6 +486,11 @@ form button {
   width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
+}
+
+.container1 h3{
+  font-size: 36px;
+  font-weight: 600;
 }
 /*----------------------------------footer--------------------------*/
 
