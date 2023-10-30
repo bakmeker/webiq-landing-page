@@ -305,7 +305,8 @@ h3 {
   overflow: hidden;
 }
 .campus-col img {
-  width: 100%;
+  width: 80%;
+  height: 80%;
   display: block;
 }
 
@@ -365,7 +366,7 @@ margin-top: 50px;
 
 .referanser img {
  margin-top: 50px;
-
+ 
 }
 
 
@@ -389,6 +390,10 @@ margin-top: 50px;
   .referanser {
     text-align: center;
   margin-top: 0px;
+  }
+  .campus-col img {
+    width: 100%;
+    display: block;
   }
   
 }
@@ -509,12 +514,11 @@ form button {
   width: 100%;
   text-align: center;
   padding: 30px 0;
-
+margin-top: 100px;
 }
 
 .footer h4 {
   margin-bottom: 5px;
-  margin-top: 150px;
   font-weight: 600;
 }
 .icons {
@@ -629,4 +633,45 @@ body {
     margin: auto;
   }
 
+  
+
 }
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Place the logo on the left and icons on the right */
+  align-items: center; /* Vertically center the content */
+  max-height: 100px;
+  /* Add padding or any other styles as needed */
+}
+
+.nav-links {
+  /* Add styling for the navigation links if needed */
+}
+
+.sosial {
+  display: flex;
+  justify-content: flex-end; /* Align the icons to the right */
+  align-items: flex-start; /* Align the icons to the top */
+
+  /* Styling for the icons and their container */
+}
+
+.sosial a {
+  text-decoration: none;
+  color: rgb(12, 60, 97);
+  margin: 10px;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.sosial i {
+  font-size: 35px;
+
+}
+
+.sosial a:hover {
+  color: #007bff;
+}
+
