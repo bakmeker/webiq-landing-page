@@ -273,19 +273,18 @@
 
 
     <!-------------CONTACT FORM------------------------------------------------------>
-
-      <div class="container1" netlify>
-        <form onsubmit="sendEmail(); reset(); return false;">
-          <h3>Bestill nå</h3>
-          <input type="text" id="name" placeholder="Navn / bedrift" required />
-          <input type="email" id="email" placeholder="E-post" required />
-          <input type="text" id="phone" placeholder="Telefon" />
-          
-          </textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div>
+    <div class="container1">
+      <form name="contact" data-netlify="true" onsubmit="sendEmail(); reset(); return false;">
+        <h3>Bestill nå</h3>
+        <input type="text" id="name" name="name" placeholder="Navn / bedrift" required />
+        <input type="email" id="email" name="email" placeholder="E-post" required />
+        <input type="text" id="phone" name="phone" placeholder="Telefon" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
     </section>
+
+    
    
     <!------------------Footer------------------------------->
 
